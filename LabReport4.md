@@ -24,5 +24,7 @@ Once in vim, I need to change index1 to index2 which can be located by the comme
 ![vim editor](labReport3Image4-2.png)
 
 ## Run Tests, Should Pass
+Same as before, I used `bash t<tab><enter>` to run the tests. Again, I used `<tab>` to autocomplete the command. This time, the tests pass, meaning I successfully fixed the error.
+![Running tests again](labReport3Image5.png)
 
 ## Commit and Push
