@@ -18,6 +18,7 @@ The image below shows the commands I used to run the tests. Before I'm able to e
 
 ## Fix Error
 The image below is the command used to edit the error in the ListExamples.java file. I used `vim List<tab><enter>`, using the `<tab>` to autocomplete the command. 
+
 ![Vim command](labReport3Image4-1.png)
 
 Once in vim, I need to change index1 to index2 which can be located by the comment line stating where the error is. Since the line of code is decently far down in the code, I didn't want to have to keep pressing the down arrow key some 30+ times. I instead used the command `/` which locates the first instance of the word that is put after the /. Since there are multiple instances of index1, I then use `n` which goes to the next instance of index1. I keep pressing `n` until I get to the index1 I want to change. From here, I use `<right>` until the cursor is hovering over the 1. I then use `x` to delete it and use `i` to enter insert mode. I then insert 2 and press `<esc>` to exit insert mode. I want to save these changes so I then use `:wq<enter>` to exit and save. Overall, the sequence of commands looks like `/index1<enter>nnnnnnnnn<right><right><right><right><right>xi2<esc>:wq<enter>`. The image below is the vim editor page where the commands were used.
