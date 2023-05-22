@@ -29,3 +29,8 @@ Same as before, I used `bash t<tab><enter>` to run the tests. Again, I used `<ta
 ![Running tests again](labReport3Image5.png)
 
 ## Commit and Push
+Now I need to add the changes, commit them, and finally publish them by pushing them to the main branch. The image below includes the commands I used to add and commit the changes. To add, I used `git add .<enter>` which adds the changes that I made so they can be committed. The `.` after `git add` is referencing the current directory. Then I use `git commit<enter>` to commit the changes.
+![Add and commit](labReport3Image6-1.png)
+
+Once I execute the commit command, a new page opens in the terminal as shown in the image below. This page gives information about the changes that I'm committing. The page asks you to give a commit message and to do so, you have to use vim commands. I want to use the message "Worked!" that again is shown in the image below. To do so, I press `i` to enter insert mode. I then type the message `Worked!` and `<esc>` to leave insert mode. Finally, I use `:wq<enter>` to save and exit the page. The full list of commands is `iWorked!<esc>:wq<enter>`.
+![Commit page](labReport3Image6-2.png)
