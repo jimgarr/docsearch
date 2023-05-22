@@ -34,3 +34,9 @@ Now I need to add the changes, commit them, and finally publish them by pushing 
 
 Once I execute the commit command, a new page opens in the terminal as shown in the image below. This page gives information about the changes that I'm committing. The page asks you to give a commit message and to do so, you have to use vim commands. I want to use the message "Worked!" that again is shown in the image below. To do so, I press `i` to enter insert mode. I then type the message `Worked!` and `<esc>` to leave insert mode. Finally, I use `:wq<enter>` to save and exit the page. The full list of commands is `iWorked!<esc>:wq<enter>`.
 ![Commit page](labReport3Image6-2.png)
+
+Now to push you have to use the `git push` command. However, you also need to add the location of where to push which is specific to each person's GitHub account. So the entire command should look something like `git push (personal URL/SSH)<enter>`. My command is shown in the image below as well as the confirmation message that the push worked. 
+![Push command](labReport3Image6-3.png)
+
+Now when I go to my GitHub account and open the ListExamples.java file the change I made is there!
+![Confirmation that push worked](labReport3Image6-4.png)
