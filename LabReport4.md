@@ -42,4 +42,5 @@ Now to push you have to use the `git push` command. However, you also need to ad
 ![Push command](labReport3Image6-3.png)
 
 Now when I go to my GitHub account and open the ListExamples.java file the change I made is there!
+
 ![Confirmation that push worked](labReport3Image6-4.png)
